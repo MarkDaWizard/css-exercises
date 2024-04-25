@@ -18,6 +18,9 @@
   margin: 0;
   background-color: rgb(99, 97, 97);
 
+  animation: dropDownAnim 0.75s ease-in forwards;
+  transform-origin: top;
+
   display: none;
 }
 
@@ -30,3 +33,18 @@ ul.dropdown-menu li:hover {
 }
 
 
+
+@keyframes dropDownAnim {
+0% {
+  transform: scale(1,0);
+}
+
+75% {
+  transform: scale(1,1.1);
+}
+
+100%{
+  transform: scale(1,1);
+
+}
+}

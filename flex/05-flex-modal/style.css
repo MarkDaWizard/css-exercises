@@ -21,7 +21,7 @@ body {
   border-radius: 10px;
   box-shadow: 2px 4px 16px rgba(0,0,0,.2);
   padding: 15px;
-
+  gap: 15px;
   display: flex;
   justify-content: space-between;
   align-items: start;
@@ -31,12 +31,7 @@ body {
 .warning-info {
   display: flex;
   flex-direction: column;
-  flex-shrink: 4;
   row-gap: 15px;
-}
-
-.modal {
-  gap: 15px;
 }
 
 .header {

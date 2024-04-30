@@ -22,11 +22,13 @@ img {
 }
 
 .item-plant {
-  display: flex;
+  /* display: flex;
   flex-direction: column;
   width: 200px;
+  
+  align-items: center; */
+  max-width: 200px;
   text-align: center;
-  align-items: center;
 }
 
 

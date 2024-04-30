@@ -1,0 +1,19 @@
+.odd {
+    font-family: 'Courier New', 'Verdana', 'DejaVu Sans', sans-serif;
+    background-color: rgb(239, 156, 172);
+}
+
+.bigger-font {
+    font-size: 24px;
+}
+
+#second {
+    color: rgb(65, 65, 254);
+    font-size: 36px;
+}
+
+#fourth {
+    background-color: rgb(69, 249, 126);
+    font-weight: bold;
+}
+
